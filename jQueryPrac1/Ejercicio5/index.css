@@ -1,0 +1,7 @@
+#parrafo {
+    font-size: 12pt;
+}
+
+#parrafo.active {
+    font-size: 16pt;
+}

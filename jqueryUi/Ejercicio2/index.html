@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+	src="https://code.jquery.com/jquery-3.6.3.js"
+	integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+	crossorigin="anonymous"></script>
+    <script
+	src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"
+	integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY="
+	crossorigin="anonymous"></script>
+    <script src="./Ejercicio2/script.js"></script>
+    <style>
+        body {
+            background-color: blue;
+        }
+        #mensajeBienvenida {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #mensajeBienvenida{
+            text-align: center;
+            opacity: 0;
+        }
+        #mensajeBienvenida.active {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <p><button id="saludo">Saludo</button><button id="despedida">Despedida</button></p>
+    <div>
+        <p id="mensajeBienvenida">Bienvenidos a la aplicacion</p>
+    </div>
+</body>
+</html>
